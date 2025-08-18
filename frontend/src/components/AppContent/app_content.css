@@ -1,0 +1,11 @@
+.p-splitbutton-defaultbutton.p-button,
+.p-splitbutton-menubutton.p-button{
+    background-color: var(--primary-blue);
+    border:1 px solid var(--primary-blue);
+}
+
+.p-splitbutton:hover .p-splitbutton-defaultbutton.p-button:hover,
+.p-splitbutton:hover .p-splitbutton-menubutton.p-button:hover{
+    background-color: var(--primary-blue-hover);
+    border:1 px solid var(--primary-blue-hover);
+}

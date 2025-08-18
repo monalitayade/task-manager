@@ -1,0 +1,20 @@
+.kanban-card{
+    background-color: #fff;
+    border: 1px solid var(--surface-border);
+}
+.card-title{
+    background-color: #F0F6FF;
+    border-bottom: 1px solid var(--surface-border);
+}
+.add-btn{
+    border-radius: 50%;
+    background-color: transparent;
+    color: #3b82f6;
+    font-size: 12px;
+    padding: 2px 5px;
+    background-color: #F0F6FF;
+}
+.add-btn .pi-plus{
+    font-size: 12px;
+    color: #3b82f6;
+}
