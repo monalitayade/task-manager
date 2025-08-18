@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import React, { StrictMode } from 'react'
 import ReactDOM, { createRoot } from 'react-dom/client'
 import './index.css'
 import 'primereact/resources/themes/lara-light-blue/theme.css'; // Theme
