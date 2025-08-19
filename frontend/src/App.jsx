@@ -15,6 +15,7 @@ import TaskBoard from './pages/TaskBoard.jsx';
 import Register from './pages/Register.jsx';
 import Login from './pages/Login.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
+import { ProjectContext } from '../context/projectContext.jsx';
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
       <Router>        
         <Layout>          
           <Routes>
-             <Route path="/sign-up" element={<Register />} />
+            <Route path="/sign-up" element={<Register />} />
             <Route path="/sign-in" element={<Login />} />
             <Route path="/" element={<ProtectedRoute><Home /></ProtectedRoute>} />
             <Route path="/create-projects" element={<ProtectedRoute><CreateProject/></ProtectedRoute>} />

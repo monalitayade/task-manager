@@ -7,11 +7,14 @@ import 'primeicons/primeicons.css';                             // Icons
 import 'primeflex/primeflex.css';                              // Layout (optional)
 import App from './App.jsx'
 import { AuthProvider } from '../context/AuthContext.jsx';
+import { ProjectProvider } from '../context/projectContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthProvider>
-      <App />
+      <ProjectProvider>
+        <App />
+      </ProjectProvider>
     </AuthProvider>
   </StrictMode>,
 )

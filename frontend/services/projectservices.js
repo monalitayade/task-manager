@@ -1,6 +1,6 @@
 import API from '../utils/api.js';
 
-export const createProject = async(projectData) => {
+export const createProjectAPICall = async(projectData) => {
     try{
         const response = await API.post('projects/create-project', projectData);
         return response?.data;

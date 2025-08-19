@@ -1,8 +1,8 @@
 import API from "../utils/api";
 
-export const registerUser = async (userData) => {
+export const registerUser = async (UserData) => {
     try {
-        const response = await API.post('auth/register', userData);
+        const response = await API.post('auth/register', UserData);
         return response?.data;
     } catch (error) {
         console.error("Error registering user:", error);

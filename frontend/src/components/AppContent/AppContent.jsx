@@ -69,7 +69,7 @@ const AppContent = () => {
   return (
     <div className='w-full flex flex-column'>
         <div className='w-full flex px-4 py-2 mb-4'>
-             <h2 className='font-semibold mb-0 mt-3'>Dashoboard</h2>
+             <h2 className='font-semibold mb-0 mt-3'>Dashboard</h2>
             <SplitButton label="Create" icon="pi pi-plus" onClick={create} className='ml-auto'/>
         </div>
         <div className='grid m-0'>
